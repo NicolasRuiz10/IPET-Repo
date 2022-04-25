@@ -1,0 +1,83 @@
+.card-pedido {
+  border-radius: .25rem;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid #cbd5e0;
+  background-color: #fff;
+  margin-top: 1.5rem;
+  
+}
+
+.card-produto {
+    border-radius: .25rem;
+    width: 400px;
+    padding: 1.5rem;
+    border: 1px solid #cbd5e0;
+    background-color: #fff;
+    margin-top: 1.5rem;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-labels {
+    font-size: 17px;
+}
+
+.div-label {
+    display: flex;
+    padding: 1rem 0;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.p {
+    margin-left: 1rem;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: .7rem;
+    min-width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+}
+
+.content-table thead {
+    border-radius: 5px 5px 0 0 !important;
+}
+
+.content-table thead tr {
+    background-color: #009878;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 7px 8px;
+    border: none;
+}
+
+.content-table td {
+    background-color: white;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009878;
+}

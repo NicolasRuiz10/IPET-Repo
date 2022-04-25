@@ -1,0 +1,234 @@
+.cadastroTitle {
+  width: 80%;
+  margin: 2% auto;
+}
+
+.id{
+  width: 80%;
+  margin: 2% auto;
+}
+
+.id p {
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.importacaoTitle {
+  width: 100%;
+  margin: 10% auto 2% auto;
+}
+
+.importacaoTitle hr{
+  width: 100%;
+}
+
+.principal-cadastro{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cadastroTitle h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.importacaoTitle h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cadastroTitle hr {
+width: 100%;
+}
+
+.input-produto p{
+  margin: 0;
+  text-align: left;
+  font-size: 26px;
+  opacity: 0.6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.input-produto {
+  width: 400px;
+}
+
+.input-produto input {
+  width: 100%;
+  height: 2.0rem;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  outline: none;
+  margin-bottom: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-produto select {
+  width: 100%;
+  height: 2.0rem;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  outline: none;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.input-produto textarea {
+  width: 100%;
+  height: 4.0rem;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  outline: none;
+  margin-bottom: 10px;
+  color: black;
+  border: 1px solid #ccc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.anexoImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.anexoImg h5 {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #2484EC;
+  font-weight: bold;
+  margin-bottom: 10px;    
+  text-align: center; 
+}
+
+.buttonsfinal {
+  width: 80%;
+  padding: 20px;
+  margin-left: 17%;
+  margin-top: 20px;
+}
+
+.buttonsfinal button{
+  width: 250px;
+  height: 40px;
+  float: left;
+  background: #ff0000d7;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+}
+
+.buttonsfinal button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+#btn-adicionar-produto{
+  background: #FEC302;
+  color: #fff;
+  outline: none;
+}
+
+#btn-desfazer-cadastro{
+  background: #ff0000;
+  color: #fff;
+  outline: none;
+}
+
+.info-produto {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(168, 166, 166);
+}
+
+.info-produto h5{
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #2484EC;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.importacao{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.importacaoText {
+  text-align: center;
+  font-size: 24px;
+  color: #2484EC;
+}
+
+.baixarButton{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.baixarButton button{
+  width: 220px;
+  height: 40px;
+  background: #2484EC;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+}
+
+.enviarText {
+  text-align: center;
+  font-size: 24px;
+  color: #2484EC;
+  margin-top: 80px;
+}
+
+.baixarButton input{
+  width: 400px;
+}
+
+.enviar-arq{
+  text-align: center;
+  padding: 20px;
+}
+
+.adicionarButton{
+  text-align: center;
+}
+.adicionarButton button{
+  width: 220px;
+  height: 40px;
+  background: #FEC302;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  opacity: 1;
+  margin-right: 20px;
+}
+
+.adicionarButton button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}

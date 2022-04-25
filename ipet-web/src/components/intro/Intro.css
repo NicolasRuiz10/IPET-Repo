@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.intro {
+  width: 100%;
+  height: 750px;
+  border-bottom: 1px solid #007DC5;
+  box-shadow: 0px 0px 3px 0px  #007DC5;;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-text {
+  height: 100%;
+  width: 40%;
+  background-color: #eff3f4;
+}
+
+.intro-img {
+  height: 100%;
+  width: 60%;
+  background-color: #eff3f4;
+}
+
+.intro-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  width: 600px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: .25rem;
+  border: 1px solid #007DC5;
+}
+
+.text h2 {
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #007DC5;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text p {
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.btn-faca-parte {
+  position: absolute;
+  top: 420px;
+  left: 10%;
+  width: 150px;
+  padding: 10px;
+  width: 200px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  background: #007DC5;
+  border: 1px solid #2484EC;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.btn-faca-parte:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  cursor: pointer;
+}
+
