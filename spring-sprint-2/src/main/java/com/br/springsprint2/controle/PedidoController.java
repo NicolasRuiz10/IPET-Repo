@@ -81,4 +81,19 @@ public class PedidoController {
             return ResponseEntity.status(404).build();
         }
     }
+
+    @CrossOrigin
+    @PutMapping("update/{id}/{status}")
+    public ResponseEntity alterarStatus(@PathVariable int id,
+                                        @PathVariable String status) {
+           if (repository.existsById(id)) {
+                Pedido pedido = repository.findById(id).get();
+                pedido.setStatus(status);
+                repository.save(pedido);
+                return ResponseEntity.status(200).build();
+        } else {
+            return ResponseEntity.status(404).build();
+        }
+    }
+
 }
