@@ -12,7 +12,7 @@ export function MenuPetshop() {
 	const { autenticadoPetshop, setAutenticadoPetshop, idPetshop, nomePetshop } = useAuth();
 
 	const RealizarLogoff = () => {
-		axios.post("http://localhost:8080/ipet/logoff/" + idPetshop).then((res) => {
+		axios.post("http://34.226.239.106:8080/ipet/logoff/" + idPetshop).then((res) => {
 			setAutenticadoPetshop(false);
 			history.push("/petshop/login");
 		});

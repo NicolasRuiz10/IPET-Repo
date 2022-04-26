@@ -13,7 +13,7 @@ export function Menu(props) {
 	const { autenticado, mudarAutenticacao, idUsuario, itemsCarrinho, nomeUsuario } = useAuth();
 
 	const RealizarLogoff = () => {
-		axios.post("http://localhost:8080/usuarios/logoff/" + idUsuario).then((res) => {
+		axios.post("http://34.226.239.106:8080/usuarios/logoff/" + idUsuario).then((res) => {
 			mudarAutenticacao();
 			history.push("/");
 		});

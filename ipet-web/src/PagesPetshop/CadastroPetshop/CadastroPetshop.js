@@ -50,7 +50,7 @@ export function Cadastro() {
         if (email === '' || nome === '') {
             setShowToast(true);
         } else {
-            axios.post(`http://localhost:8080/ipet`, {
+            axios.post(`http://34.226.239.106:8080/ipet`, {
                 nome: nome,
                 email: email,
                 telefone: telefone,

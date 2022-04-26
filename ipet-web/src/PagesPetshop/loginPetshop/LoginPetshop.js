@@ -31,7 +31,7 @@ export default function LoginPetshop(props) {
 
     function verificarLogin() {
         setActiveGif(true);
-        axios.post("http://localhost:8080/ipet/autenticar", {
+        axios.post("http://34.226.239.106:8080/ipet/autenticar", {
             email: email,
             senha: password,
         }).then((res) => {

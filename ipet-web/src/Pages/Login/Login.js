@@ -32,7 +32,7 @@ export default function Login(props) {
 
     async function verificarLogin() {
         setActiveGif(true);
-        axios.post("http://localhost:8080/usuarios/autenticar", {
+        axios.post("http://34.226.239.106:8080/usuarios/autenticar", {
             email: email,
             senha: password,
         }).then((res) => {

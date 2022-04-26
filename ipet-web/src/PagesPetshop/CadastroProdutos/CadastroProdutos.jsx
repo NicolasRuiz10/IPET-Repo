@@ -26,7 +26,7 @@ export default function CadastroProdutos(props) {
 
     async function desfazePrimeiroCadastro() {
         setActiveGif(true);
-        axios.delete(`http://localhost:8080/produtos/desfazerPrimeirocadastro/${idPetshop}`)
+        axios.delete(`http://34.226.239.106:8080/produtos/desfazerPrimeirocadastro/${idPetshop}`)
             .then((resp) => {
                 console.log(resp.status);
                 if (resp.status === 200) {
@@ -53,7 +53,7 @@ export default function CadastroProdutos(props) {
         setActiveGif(true);
         if (nome !== '' || descricao !== '', valor !== '') {
             const response = await axios
-                .post(`http://localhost:8080/produtos/${idPetshop}`, {
+                .post(`http://34.226.239.106:8080/produtos/${idPetshop}`, {
                     nome: nome,
                     descricao: descricao,
                     valor: valor,
@@ -68,7 +68,7 @@ export default function CadastroProdutos(props) {
             if (response.data) {
                 axios
                     .patch(
-                        `http://localhost:8080/produtos/atualizar-foto/${response.data}`,
+                        `http://34.226.239.106:8080/produtos/atualizar-foto/${response.data}`,
                         formatImg,
                         {
                             headers: {
@@ -113,7 +113,7 @@ export default function CadastroProdutos(props) {
     }
     
       function teste(){
-        axios.get(`http://localhost:8080/produtos/arqTxt/produtos`).then(res => {
+        axios.get(`http://34.226.239.106:8080/produtos/arqTxt/produtos`).then(res => {
           download("produtos.txt", res.data)
         })
       }
@@ -124,7 +124,7 @@ export default function CadastroProdutos(props) {
         formData.append("image", img);
         if (file !== "" || img !== "") {
             axios
-                .post("http://localhost:8080/produtos/txt", formData, {
+                .post("http://34.226.239.106:8080/produtos/txt", formData, {
                     headers: {
                         "Content-Type": "multipart/form-data",
                     },
@@ -142,7 +142,7 @@ export default function CadastroProdutos(props) {
     }
 
     function desfazer() {
-        axios.delete("http://localhost:8080/produtos/desfazer-cadastro").then(res => {
+        axios.delete("http://34.226.239.106:8080/produtos/desfazer-cadastro").then(res => {
             console.log(res, 'resposta');
             if (res.status === 200) {
                 setShowToast(true);

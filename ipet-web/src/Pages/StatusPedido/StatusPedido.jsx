@@ -18,10 +18,10 @@ export function StatusPedido(props) {
     
     useEffect(() => {
         setIdPedido(props.match.params.idPedido);
-        axios.get(`http://localhost:8080/itens/pedido/id/${idPedido}`).then((res) => {
+        axios.get(`http://34.226.239.106:8080/itens/pedido/id/${idPedido}`).then((res) => {
             setPedido(pedido, res.data);
         });
-        axios.get(`http://localhost:8080/ipet/${itemsCarrinho[0].idPetshop}`).then((res) => {
+        axios.get(`http://34.226.239.106:8080/ipet/${itemsCarrinho[0].idPetshop}`).then((res) => {
             setPetshop(res.data.nome);
         });
     }, [])
