@@ -50,6 +50,8 @@ export function Menu(props) {
 								<button className="btn-cadastro">Cadastro</button>
 							</Link>
 						</div>
+						<div id="bolinhaVerde">
+						</div>
 						
 					</div>
 					:
@@ -57,6 +59,8 @@ export function Menu(props) {
 						<div className="item-acesso">
 							<button className="btn-cadastro" onClick={RealizarLogoff}>Loggof</button>
 						</div>
+
+				
 						<div className="item-acesso">
 							<div className="icon-car">
 								Olá, {nomeUsuario}
