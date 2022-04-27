@@ -19,7 +19,7 @@ export function Produtos(props) {
     }
 
     useEffect(() => {
-        axios.get("http://localhost:8080/produtos").then((res) => {
+        axios.get("http://ec2-34-226-239-106.compute-1.amazonaws.com:8080/produtos").then((res) => {
             setProdutos(res.data);
             setProdutosBase(res.data);
         });

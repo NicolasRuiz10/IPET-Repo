@@ -15,7 +15,7 @@ export default function PedidoPetshop() {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/itens/pedido/petshop/${idPetshop}`).then((res) => {
+        axios.get(`http://ec2-34-226-239-106.compute-1.amazonaws.com:8080/itens/pedido/petshop/${idPetshop}`).then((res) => {
             setPedido(res.data);
             setDadosUsuario(res.data[0].pedido.fkUsuario);
         })

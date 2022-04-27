@@ -16,14 +16,14 @@ export function Pagamento() {
 
     async function redirectStatus() {
         let idPedido;
-        await axios.post(`http://localhost:8080/pedido/usuario/id/${idUsuario}`, {
+        await axios.post(`http://ec2-34-226-239-106.compute-1.amazonaws.com:8080/pedido/usuario/id/${idUsuario}`, {
                 pagamento: formaPagamento,
                 valorTotal: totalCarrinho,
             }).then((res) => {
                 idPedido = res.data.idPedido;
             })
         await itemsCarrinho.forEach((item) => {
-            axios.post(`http://localhost:8080/itens/pedido/id/${idPedido}/${item.idProduto}`, {
+            axios.post(`http://ec2-34-226-239-106.compute-1.amazonaws.com:8080/itens/pedido/id/${idPedido}/${item.idProduto}`, {
                 qtdProduto: item.quantidade,
             }).then((res) => {
                 console.log(res.data);

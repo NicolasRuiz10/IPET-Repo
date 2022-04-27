@@ -20,7 +20,7 @@ const CardProdutos = ({ produto }) => {
   return (
     <div className="card">
       <div className="card--imagem">
-        <img src={`http://localhost:8080/produtos/pegar-foto/${produto.idProduto}`} alt="" />
+        <img src={`http://ec2-34-226-239-106.compute-1.amazonaws.com:8080/produtos/pegar-foto/${produto.idProduto}`} alt="" />
         <hr />
       </div>
       <div className="card--desc">
